@@ -36,7 +36,7 @@ if __name__ == "__main__":
             artifact_path="model",
             input_example=input_example
         )
-        
+        # train model
         model.fit(X_train, y_train)
         
         # Log Metrics
